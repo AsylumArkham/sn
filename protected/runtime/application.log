@@ -1,0 +1,134 @@
+2013/04/28 04:26:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /Users/Arkham/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Users/Arkham/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('gii')
+#1 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Users/Arkham/Sites/sn/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/~arkham/sn/index.php/gii
+2013/04/28 05:43:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "empresa/hola".' in /Users/Arkham/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Users/Arkham/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('empresa/hola')
+#1 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Users/Arkham/Sites/sn/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/~arkham/sn/index.php/empresa/hola
+2013/04/28 05:43:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Empresa/hola".' in /Users/Arkham/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Users/Arkham/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('Empresa/hola')
+#1 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Users/Arkham/Sites/sn/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/~arkham/sn/index.php/Empresa/hola
+2013/04/28 05:43:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Empresa/Hola".' in /Users/Arkham/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Users/Arkham/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('Empresa/Hola')
+#1 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Users/Arkham/Sites/sn/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/~arkham/sn/index.php/Empresa/Hola
+2013/04/28 06:03:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "styles.css".' in /Users/Arkham/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Users/Arkham/yii/framework/web/CController.php(262): CController->missingAction('styles.css')
+#1 /Users/Arkham/yii/framework/web/CWebApplication.php(277): CController->run('styles.css')
+#2 /Users/Arkham/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('empresa/styles....')
+#3 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Users/Arkham/Sites/sn/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/~arkham/sn/index.php/empresa/styles.css
+2013/04/28 07:04:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.html".' in /Users/Arkham/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Users/Arkham/yii/framework/web/CController.php(262): CController->missingAction('index.html')
+#1 /Users/Arkham/yii/framework/web/CWebApplication.php(277): CController->run('index.html')
+#2 /Users/Arkham/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('empresa/index.h...')
+#3 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Users/Arkham/Sites/sn/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/~arkham/sn/index.php/empresa/index.html
+2013/04/28 23:29:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Users/Arkham/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Users/Arkham/yii/framework/web/CController.php(262): CController->missingAction('index')
+#1 /Users/Arkham/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#2 /Users/Arkham/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('empresa/index')
+#3 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Users/Arkham/Sites/sn/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/~arkham/sn/index.php/empresa/index
+2013/04/28 23:29:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Users/Arkham/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Users/Arkham/yii/framework/web/CController.php(262): CController->missingAction('index')
+#1 /Users/Arkham/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#2 /Users/Arkham/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('empresa/index')
+#3 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Users/Arkham/Sites/sn/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/~arkham/sn/index.php/empresa/index
+2013/04/28 23:37:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Users/Arkham/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Users/Arkham/yii/framework/web/CController.php(262): CController->missingAction('index')
+#1 /Users/Arkham/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#2 /Users/Arkham/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('empresa/index')
+#3 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Users/Arkham/Sites/sn/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/~arkham/sn/index.php/empresa/index
+2013/04/28 23:43:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Users/Arkham/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Users/Arkham/yii/framework/web/CController.php(262): CController->missingAction('index')
+#1 /Users/Arkham/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#2 /Users/Arkham/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('empresa/index')
+#3 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Users/Arkham/Sites/sn/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/~arkham/sn/index.php/empresa/index
+2013/04/28 23:50:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Users/Arkham/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Users/Arkham/yii/framework/web/CController.php(262): CController->missingAction('index')
+#1 /Users/Arkham/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#2 /Users/Arkham/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('empresa/index')
+#3 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Users/Arkham/Sites/sn/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/~arkham/sn/index.php/empresa/index
+2013/04/28 23:54:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Users/Arkham/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Users/Arkham/yii/framework/web/CController.php(262): CController->missingAction('index')
+#1 /Users/Arkham/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#2 /Users/Arkham/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('empresa/index')
+#3 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Users/Arkham/Sites/sn/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/~arkham/sn/index.php/empresa/index
+2013/04/28 23:54:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Users/Arkham/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Users/Arkham/yii/framework/web/CController.php(262): CController->missingAction('index')
+#1 /Users/Arkham/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#2 /Users/Arkham/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('empresa/index')
+#3 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Users/Arkham/Sites/sn/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/~arkham/sn/index.php/empresa/index
+2013/04/28 23:55:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Users/Arkham/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Users/Arkham/yii/framework/web/CController.php(262): CController->missingAction('index')
+#1 /Users/Arkham/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#2 /Users/Arkham/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('empresa/index')
+#3 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Users/Arkham/Sites/sn/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/~arkham/sn/index.php/empresa/index
+2013/04/29 00:46:31 [error] [php] include(CHtm.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Users/Arkham/yii/framework/YiiBase.php:421)
+Stack trace:
+#0 /Users/Arkham/Sites/sn/protected/views/empresa/_view.php(3): spl_autoload_call()
+#1 /Users/Arkham/yii/framework/web/CBaseController.php(119): require()
+#2 /Users/Arkham/yii/framework/web/CBaseController.php(88): EmpresaController->renderInternal()
+#3 /Users/Arkham/yii/framework/web/CController.php(866): EmpresaController->renderFile()
+#4 /Users/Arkham/yii/framework/zii/widgets/CListView.php(242): EmpresaController->renderPartial()
+#5 /Users/Arkham/yii/framework/zii/widgets/CBaseListView.php(158): CListView->renderItems()
+#6 unknown(0): CListView->renderSection()
+#7 /Users/Arkham/yii/framework/zii/widgets/CBaseListView.php(141): preg_replace_callback()
+#8 /Users/Arkham/yii/framework/zii/widgets/CBaseListView.php(126): CListView->renderContent()
+#9 /Users/Arkham/yii/framework/web/CBaseController.php(166): CListView->run()
+#10 /Users/Arkham/Sites/sn/protected/views/empresa/index.php(3): EmpresaController->widget()
+#11 /Users/Arkham/yii/framework/web/CBaseController.php(119): require()
+#12 /Users/Arkham/yii/framework/web/CBaseController.php(88): EmpresaController->renderInternal()
+#13 /Users/Arkham/yii/framework/web/CController.php(866): EmpresaController->renderFile()
+#14 /Users/Arkham/yii/framework/web/CController.php(779): EmpresaController->renderPartial()
+#15 /Users/Arkham/Sites/sn/protected/controllers/EmpresaController.php(30): EmpresaController->render()
+#16 /Users/Arkham/yii/framework/web/actions/CInlineAction.php(50): EmpresaController->actionIndex()
+#17 /Users/Arkham/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#18 /Users/Arkham/yii/framework/web/CController.php(278): EmpresaController->runAction()
+#19 /Users/Arkham/yii/framework/web/CController.php(257): EmpresaController->runActionWithFilters()
+#20 /Users/Arkham/yii/framework/web/CWebApplication.php(277): EmpresaController->run()
+#21 /Users/Arkham/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#22 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#23 /Users/Arkham/Sites/sn/index.php(13): CWebApplication->run()
+REQUEST_URI=/~arkham/sn/index.php/empresa/index
+in /Users/Arkham/Sites/sn/protected/views/empresa/_view.php (3)
+in /Users/Arkham/Sites/sn/protected/views/empresa/index.php (3)
+in /Users/Arkham/Sites/sn/protected/controllers/EmpresaController.php (30)
