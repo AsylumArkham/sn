@@ -18,6 +18,13 @@ class EmpresaController extends Controller {
     
     public function actionIndex() {
         $dp = new CActiveDataProvider('empresa');
+        
+        $this->menu = array(
+            array('label' => "Nuevo Cliente", 'url'=>array('create')),
+            array('label' => "Administracion", 'url'=>array('admin')),
+            
+        );
+        
         $this->render('index', array('dp' => $dp));
         
     }
