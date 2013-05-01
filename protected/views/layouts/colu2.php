@@ -10,7 +10,7 @@
                <li>
                     <h3>Operaciones</h3>
                     <ul class="blocklist">
-                        <li><?php echo CHtml::link('Create Cliente', array('create'));?></li>
+                        <li><?php echo CHtml::link('Nuevo Cliente', array('create'));?></li>
                         <li><?php echo CHtml::link('Administrar', array('admin'));?></li>
                     </ul>
                 </li>

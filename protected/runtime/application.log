@@ -536,3 +536,11 @@ Stack trace:
 #3 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
 #4 /Users/Arkham/Sites/sn/index.php(13): CApplication->run()
 #5 {main} REQUEST_URI=/~arkham/sn/index.php/empresa/admin
+2013/05/01 23:43:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in /Users/Arkham/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Users/Arkham/yii/framework/web/CController.php(262): CController->missingAction('create')
+#1 /Users/Arkham/yii/framework/web/CWebApplication.php(277): CController->run('create')
+#2 /Users/Arkham/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('empresa/create')
+#3 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Users/Arkham/Sites/sn/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/~arkham/sn/index.php/empresa/create
