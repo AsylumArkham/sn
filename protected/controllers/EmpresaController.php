@@ -2,8 +2,10 @@
 
 class EmpresaController extends Controller {
     
+    public $layout = "//layouts/colu2";
+    
+    
     public function actionHola() {
-        $this->layout = "//layouts/sworm";
         
         $m = "Hola desde PHP controller";
         
@@ -30,8 +32,6 @@ class EmpresaController extends Controller {
         }
         
     }
-    
-    
     
     
 }
