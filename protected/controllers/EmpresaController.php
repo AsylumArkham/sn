@@ -10,6 +10,7 @@ class EmpresaController extends Controller {
         $m = "Hola desde PHP controller";
         
         $this->menu = array("");
+        $this->render("mymenu");
         
         $this->render("hola", array("mensaje"=>$m));
         
@@ -27,6 +28,11 @@ class EmpresaController extends Controller {
         
         $this->render('index', array('dp' => $dp));
         
+    }
+    
+    public function actionMenu(){
+        
+        $this->render("mymenu");
     }
     
     

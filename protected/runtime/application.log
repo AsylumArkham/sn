@@ -544,3 +544,48 @@ Stack trace:
 #3 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
 #4 /Users/Arkham/Sites/sn/index.php(13): CApplication->run()
 #5 {main} REQUEST_URI=/~arkham/sn/index.php/empresa/create
+2013/05/02 00:57:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "mymenu".' in /Users/Arkham/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Users/Arkham/yii/framework/web/CController.php(262): CController->missingAction('mymenu')
+#1 /Users/Arkham/yii/framework/web/CWebApplication.php(277): CController->run('mymenu')
+#2 /Users/Arkham/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('empresa/mymenu')
+#3 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Users/Arkham/Sites/sn/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/~arkham/sn/index.php/empresa/mymenu
+2013/05/02 00:58:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "mymenu".' in /Users/Arkham/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Users/Arkham/yii/framework/web/CController.php(262): CController->missingAction('mymenu')
+#1 /Users/Arkham/yii/framework/web/CWebApplication.php(277): CController->run('mymenu')
+#2 /Users/Arkham/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('empresa/mymenu')
+#3 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Users/Arkham/Sites/sn/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/~arkham/sn/index.php/empresa/mymenu
+2013/05/02 00:58:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "mymenu".' in /Users/Arkham/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Users/Arkham/yii/framework/web/CController.php(262): CController->missingAction('mymenu')
+#1 /Users/Arkham/yii/framework/web/CWebApplication.php(277): CController->run('mymenu')
+#2 /Users/Arkham/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('empresa/mymenu')
+#3 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Users/Arkham/Sites/sn/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/~arkham/sn/index.php/empresa/mymenu
+2013/05/02 01:00:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in /Users/Arkham/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Users/Arkham/yii/framework/web/CController.php(262): CController->missingAction('about')
+#1 /Users/Arkham/yii/framework/web/CWebApplication.php(277): CController->run('about')
+#2 /Users/Arkham/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/about')
+#3 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Users/Arkham/Sites/sn/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/~arkham/sn/index.php/site/about
+2013/05/02 01:03:44 [error] [exception.CException] exception 'CException' with message 'EmpresaController cannot find the requested view "menu".' in /Users/Arkham/yii/framework/web/CController.php:875
+Stack trace:
+#0 /Users/Arkham/yii/framework/web/CController.php(779): CController->renderPartial('menu', NULL, true)
+#1 /Users/Arkham/Sites/sn/protected/controllers/EmpresaController.php(13): CController->render('menu')
+#2 /Users/Arkham/yii/framework/web/actions/CInlineAction.php(50): EmpresaController->actionHola()
+#3 /Users/Arkham/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#4 /Users/Arkham/yii/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#5 /Users/Arkham/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/Arkham/yii/framework/web/CWebApplication.php(277): CController->run('hola')
+#7 /Users/Arkham/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('empresa/hola')
+#8 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /Users/Arkham/Sites/sn/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/~arkham/sn/index.php/empresa/hola
