@@ -7,12 +7,16 @@ class EmpresaController extends Controller {
     
     public function actionHola() {
         
+     
         $m = "Hola desde PHP controller";
         
-        $this->menu = array("");
-        $this->render("mymenu");
+        $this->menu = array(
+                array("label" => "Create Empresa", "url"=> array("create")),
+                array("label" => "Delete Empresa", "url"=> array("delete")),
+                array("label"=> "Editar", "url" => array("update", "id"=>2)),
+            );
         
-        $this->render("hola", array("mensaje"=>$m));
+        $this->render("hola", array("mensaje" => $m));
         
     }
     

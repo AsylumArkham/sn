@@ -589,3 +589,51 @@ Stack trace:
 #8 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
 #9 /Users/Arkham/Sites/sn/index.php(13): CApplication->run()
 #10 {main} REQUEST_URI=/~arkham/sn/index.php/empresa/hola
+2013/05/03 04:40:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in /Users/Arkham/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Users/Arkham/yii/framework/web/CController.php(262): CController->missingAction('admin')
+#1 /Users/Arkham/yii/framework/web/CWebApplication.php(277): CController->run('admin')
+#2 /Users/Arkham/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('empresa/admin')
+#3 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Users/Arkham/Sites/sn/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/~arkham/sn/index.php/empresa/admin
+2013/05/03 04:40:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in /Users/Arkham/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Users/Arkham/yii/framework/web/CController.php(262): CController->missingAction('create')
+#1 /Users/Arkham/yii/framework/web/CWebApplication.php(277): CController->run('create')
+#2 /Users/Arkham/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('empresa/create')
+#3 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Users/Arkham/Sites/sn/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/~arkham/sn/index.php/empresa/create
+2013/05/03 05:03:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in /Users/Arkham/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Users/Arkham/yii/framework/web/CController.php(262): CController->missingAction('create')
+#1 /Users/Arkham/yii/framework/web/CWebApplication.php(277): CController->run('create')
+#2 /Users/Arkham/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('empresa/create')
+#3 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Users/Arkham/Sites/sn/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/~arkham/sn/index.php/empresa/create
+2013/05/03 05:03:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in /Users/Arkham/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Users/Arkham/yii/framework/web/CController.php(262): CController->missingAction('delete')
+#1 /Users/Arkham/yii/framework/web/CWebApplication.php(277): CController->run('delete')
+#2 /Users/Arkham/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('empresa/delete')
+#3 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Users/Arkham/Sites/sn/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/~arkham/sn/index.php/empresa/delete
+2013/05/03 05:03:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in /Users/Arkham/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Users/Arkham/yii/framework/web/CController.php(262): CController->missingAction('admin')
+#1 /Users/Arkham/yii/framework/web/CWebApplication.php(277): CController->run('admin')
+#2 /Users/Arkham/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('empresa/admin')
+#3 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Users/Arkham/Sites/sn/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/~arkham/sn/index.php/empresa/admin
+2013/05/03 05:03:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in /Users/Arkham/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Users/Arkham/yii/framework/web/CController.php(262): CController->missingAction('update')
+#1 /Users/Arkham/yii/framework/web/CWebApplication.php(277): CController->run('update')
+#2 /Users/Arkham/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('empresa/update')
+#3 /Users/Arkham/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Users/Arkham/Sites/sn/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/~arkham/sn/index.php/empresa/update/2

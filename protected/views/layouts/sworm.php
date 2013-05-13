@@ -26,7 +26,9 @@
 				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
 			),
                         "activeCssClass" => "selected",
-                    
+                        "firstItemCssClass" => "start",
+                        "lastItemCssClass" => "end",
+                        "id" => false,
 		)); ?>
     </div><!-- mainmenu -->
 	

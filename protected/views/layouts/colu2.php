@@ -6,15 +6,27 @@
         
         <div class="sidebar">
 
-            <ul>	
-               <li>
+            <ul>
+                
+                <li>
                     <h3>Operaciones</h3>
-                    <ul class="blocklist">
-                        <li><?php echo CHtml::link('Nuevo Cliente', array('create'));?></li>
-                        <li><?php echo CHtml::link('Administrar', array('admin'));?></li>
-                    </ul>
+                    
+                    
+                    <?php
+                    
+                    $this->widget('zii.widgets.CMenu', array(
+                       "items" => $this->menu,
+                       "id"=> false,
+                        "htmlOptions" => array("class"=>"blocklist"),
+        
+                    ));
+                    ?>
+                    
+                    
                 </li>
 
+                
+         
                <li>
                     <h3>Navigate</h3>
                     <ul class="blocklist">
